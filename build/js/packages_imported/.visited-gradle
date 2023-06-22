@@ -1,0 +1,20 @@
+{
+  "version": "9",
+  "items": {
+    "ebe3bb84bcca327591223654e61a6281": {
+      "src": "/Users/hienle/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.8.21/d749cd5ae25da36d06e5028785038e24f9d37976/kotlin-stdlib-common-1.8.21.jar"
+    },
+    "c2333d59b79d740ca5a47eebc6cad6ee": {
+      "src": "/Users/hienle/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-js-runner/1.8.21/9c1cc1e463b26db301da6b9616a10c6c9f227eb7/kotlin-test-js-runner-1.8.21.jar",
+      "target": "kotlin-test-js-runner/0.0.1"
+    },
+    "ca6ae8130bd4e5c8e25ef58754ac6429": {
+      "src": "/Users/hienle/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-js/1.8.21/fb4bd2ffb94dbf57c6e1a5221b8dc165b131510c/kotlin-stdlib-js-1.8.21.jar",
+      "target": "kotlin/1.8.21"
+    },
+    "7662c40db9a9b3960f497493ea6ee333": {
+      "src": "/Users/hienle/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-test-js/1.8.21/1695699ab850c898eeeb9a28b93072d2421c421f/kotlin-test-js-1.8.21.jar",
+      "target": "kotlin-test/1.8.21"
+    }
+  }
+}

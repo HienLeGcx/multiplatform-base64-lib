@@ -1,0 +1,11 @@
+{
+  "name": "multiplatform-base64-lib-js-ir",
+  "version": "1.0.0-SNAPSHOT",
+  "main": "multiplatform-base64-lib-js-ir.js",
+  "types": "multiplatform-base64-lib-js-ir.d.ts",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}

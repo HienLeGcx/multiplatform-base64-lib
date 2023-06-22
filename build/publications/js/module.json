@@ -1,0 +1,185 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multiplatform-base64-lib/1.0.0/multiplatform-base64-lib-1.0.0.module",
+    "group": "com.hienle.base64",
+    "module": "multiplatform-base64-lib",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "jsLegacyApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-base64-lib-jslegacy-1.0.0.jar",
+          "url": "multiplatform-base64-lib-js-1.0.0.jar",
+          "size": 44772,
+          "sha512": "823c982fa62fef7c4cf1118a1422342a6c3503a53a8d6900178e5465d9438aeca126541a36b2c37803c6b2bf2693fe23ca08709128f6153aa108f4411937b449",
+          "sha256": "59ae2bd95a1d179c54428f615401ddabce6fef04e4092e1639714fcb757ed175",
+          "sha1": "5eba8d5490532decca0efc9c5413242280984ee6",
+          "md5": "7afc7f260a3fc2494f135cfc541d3222"
+        }
+      ]
+    },
+    {
+      "name": "jsLegacyRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-base64-lib-jslegacy-1.0.0.jar",
+          "url": "multiplatform-base64-lib-js-1.0.0.jar",
+          "size": 44772,
+          "sha512": "823c982fa62fef7c4cf1118a1422342a6c3503a53a8d6900178e5465d9438aeca126541a36b2c37803c6b2bf2693fe23ca08709128f6153aa108f4411937b449",
+          "sha256": "59ae2bd95a1d179c54428f615401ddabce6fef04e4092e1639714fcb757ed175",
+          "sha1": "5eba8d5490532decca0efc9c5413242280984ee6",
+          "md5": "7afc7f260a3fc2494f135cfc541d3222"
+        }
+      ]
+    },
+    {
+      "name": "jsIrApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-base64-lib-jsir-1.0.0.klib",
+          "url": "multiplatform-base64-lib-js-1.0.0.klib",
+          "size": 5341,
+          "sha512": "739eb1aa83ac09cea89733955ed63b431ff2cb6207797c83c097f72086101028532adea5e5772b88ffbc3841311c398f61c1bcd20e6757e3dcabbacfa2a7cfc9",
+          "sha256": "96fa1a77347f1002a9ea9b09825009cfb90a001a31df736b296d835c88925553",
+          "sha1": "3c9d1e4aa15f7fdc45b2fa73536dec076ad185f2",
+          "md5": "ab482aba9e311df45d2e1077e87f6828"
+        }
+      ]
+    },
+    {
+      "name": "jsIrRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "ir",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-js",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-base64-lib-jsir-1.0.0.klib",
+          "url": "multiplatform-base64-lib-js-1.0.0.klib",
+          "size": 5341,
+          "sha512": "739eb1aa83ac09cea89733955ed63b431ff2cb6207797c83c097f72086101028532adea5e5772b88ffbc3841311c398f61c1bcd20e6757e3dcabbacfa2a7cfc9",
+          "sha256": "96fa1a77347f1002a9ea9b09825009cfb90a001a31df736b296d835c88925553",
+          "sha1": "3c9d1e4aa15f7fdc45b2fa73536dec076ad185f2",
+          "md5": "ab482aba9e311df45d2e1077e87f6828"
+        }
+      ]
+    },
+    {
+      "name": "jsLegacySourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.js.compiler": "legacy",
+        "org.jetbrains.kotlin.platform.type": "js"
+      },
+      "files": [
+        {
+          "name": "multiplatform-base64-lib-jslegacy-1.0.0-sources.jar",
+          "url": "multiplatform-base64-lib-js-1.0.0-sources.jar",
+          "size": 1449,
+          "sha512": "84d3c7be6beea58b56e5033eb8495f1d8dea05a377cb9354746b8ba0af7fceaba994e49b9b391dd41acb2e54242000efcf99ab352778a237f56ed85b07b07084",
+          "sha256": "21822d626c40be2340af3373146e865191feff3f9645f2d5862b5fa8e9186ec8",
+          "sha1": "1e6f746e07b98737a35355000a06930bc597ef9b",
+          "md5": "9fecd156774ec86a0ba3001fba9c2644"
+        }
+      ]
+    }
+  ]
+}

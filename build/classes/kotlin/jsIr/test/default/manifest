@@ -1,0 +1,10 @@
+builtins_platform=JS
+unique_name=org.jetbrains.base64\:multiplatform-base64-lib_test
+compiler_version=1.8.21
+depends=org.jetbrains.base64\:multiplatform-base64-lib kotlin-test kotlin
+serializedKlibFingerprint=2vrgplk988t8o.3ec7lhh5oshgs
+serializedIrFileFingerprints=SerializedIrFileFingerprint(fileFingerprint\=19rm8wmua9j5f.1ofe0ew9g1e8n)
+jsOutputName=multiplatform-base64-lib-js-ir-test
+abi_version=1.7.0
+metadata_version=1.4.1
+ir_version=1.0.0

@@ -1,0 +1,10 @@
+builtins_platform=JS
+unique_name=com.hienle.base64\:multiplatform-base64-lib
+compiler_version=1.8.21
+depends=kotlin
+serializedKlibFingerprint=qn22l4q18l1x.3477zj7bfwr13
+serializedIrFileFingerprints=SerializedIrFileFingerprint(fileFingerprint\=21fplbq0sk1vk.13rhi45pmfk3i) SerializedIrFileFingerprint(fileFingerprint\=1prg77g9wwlnu.31j80w5m2wtik)
+jsOutputName=multiplatform-base64-lib-js-ir
+abi_version=1.7.0
+metadata_version=1.4.1
+ir_version=1.0.0

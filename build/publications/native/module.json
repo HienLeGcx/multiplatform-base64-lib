@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../multiplatform-base64-lib/1.0.0/multiplatform-base64-lib-1.0.0.module",
+    "group": "com.hienle.base64",
+    "module": "multiplatform-base64-lib",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "nativeApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-base64-lib.klib",
+          "url": "multiplatform-base64-lib-native-1.0.0.klib",
+          "size": 10898,
+          "sha512": "820353c4e897246a465ef90f39fae9b37f06d6e98448357a4d1a46a3f7ecb820860089287a4252bc1cae7edf02a06c6a2e5bb9a936d35190977f5e183d9d1f50",
+          "sha256": "624607bf4de37adad973b26f9c7f253601bd35a0eba7d950379aaeb5a4e0dd1e",
+          "sha1": "e9987d03a4a6336fd25a84fdd0ae7a0c3ebc343a",
+          "md5": "e508e8cb0108c1d0ceeb0c9b0b29bca9"
+        }
+      ]
+    },
+    {
+      "name": "nativeSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "multiplatform-base64-lib-native-1.0.0-sources.jar",
+          "url": "multiplatform-base64-lib-native-1.0.0-sources.jar",
+          "size": 1909,
+          "sha512": "c0cfed0628dbf6e6e6e5f2113f5b674ec798043ad2b0022d659d266051c2d6ca2cacab34afc4d4348fbe76608d48aecde1e9660f78950e83d6b5af328de819bd",
+          "sha256": "7ad56761e3c9bb32a5770dddbe50bbf557e2874164b0b1f19abe1fc54570e693",
+          "sha1": "8e517199c9fc41bbd593af36651672ec0f24d9d6",
+          "md5": "6b4dc374022a62b377f020e0d0b3424b"
+        }
+      ]
+    },
+    {
+      "name": "nativeMetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "macos_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "multiplatform-base64-lib-native-1.0.0-metadata.jar",
+          "url": "multiplatform-base64-lib-native-1.0.0-metadata.jar",
+          "size": 261,
+          "sha512": "bba9f807465a26d03b4b77b3172b023b083f13da74a5c8ecc1065c94e153438ba0933c37390812895de6eb3406a8214fba5a92cf7d3ae5ca8e8e583844265e57",
+          "sha256": "7eb74299378b74f1c3b5b8f9eac8b15f70d555fb6315c842f6b7831551c34693",
+          "sha1": "e48481f7c4c1b6e5051717e417916e3e9ad0cdab",
+          "md5": "f133082ac4fd97f9e47a60784a19bdb4"
+        }
+      ]
+    }
+  ]
+}

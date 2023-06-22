@@ -1,0 +1,10 @@
+{
+  "name": "multiplatform-base64-lib-js-ir",
+  "version": "1.0.0-SNAPSHOT",
+  "main": "kotlin/multiplatform-base64-lib-js-ir.js",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}
