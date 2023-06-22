@@ -6,6 +6,26 @@ plugins {
 group = "com.hienle.base64"
 version = "1.0.0"
 
+publishing {
+    repositories {
+        maven {
+            name = "GitHubPackages"
+            url = uri("https://maven.pkg.github.com/HienLeGcx/multiplatform-base64-lib")
+            credentials {
+                username = System.getenv("GITHUB_ACTOR")
+                password = System.getenv("GITHUB_TOKEN")
+            }
+        }
+    }
+    publications {
+        register<MavenPublication>("gpr") {
+            groupId = "com.hienle.base64"
+            artifactId = "multiplatform-base64-lib"
+            version = "1.0.0"
+        }
+    }
+}
+
 repositories {
     mavenCentral()
 }
